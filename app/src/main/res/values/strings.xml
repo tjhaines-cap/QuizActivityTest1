@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">QuizActivity</string>
+    <string name="question_languageS1">Consider the language S*, where S = {abb ab}. Which of the following words are in the language?</string>
+    <string name="answer_alanguageS1">a) abbaba</string>
+    <string name="answer_blanguageS1">b) abbabba</string>
+    <string name="answer_clanguageS1">c) abbabab</string>
+    <string name="answer_dlanguageS1">d) ababbb</string>
+    <string name="question_recursive1"> Given the Recursive definition for language S\n
+        Rule 1: ba is in S\n
+        Rule 2: if x is in S so is ax and bx\n
+        What is the language that this describes?
+    </string>
+    <string name="answer_arecursive1">a) The language S that contains all words that begin with ba</string>
+    <string name="answer_brecursive1">b) The language S that contains all words that contain at least one occurrence of ab</string>
+    <string name="answer_crecursive1">c) The language S that contains all words of even length that contain at least one occurrence of ba</string>
+    <string name="answer_drecursive1">d) The language S that contains all words that end with ba</string>
+    <string name="question_language_contains1">Which language contains these words: bbbbbab, babbbbb, bbbabbb?</string>
+    <string name="answer_alc1">a) The language S* where S = {bab  bb}</string>
+    <string name="answer_blc1">b) The language S* where S = {bbb  ab}</string>
+    <string name="answer_clc1">c) The language S* where S = {ba bb}</string>
+    <string name="answer_dlc1">d) The language S* where S = {ba bbb}</string>
+    <string name="question_languageS2">Let S = {b  aa}. What are all the words in S* that have four letters?</string>
+    <string name="answer_alS2">a) aaaa, aaab, abab, bbaa, bbbb</string>
+    <string name="answer_blS2">b) aaaa, aabb, baab, bbaa, bbbb</string>
+    <string name="answer_clS2">c) aaaa, aabb, bbaa, bbbb</string>
+    <string name="answer_dlS2">d) aabb, bbaa, bbba, aaab, baab</string>
+    <string name="question_pal">Which of the following is a word in the language PALINDROME as defined over the alphabet Σ = {a  b  c}?</string>
+    <string name="answer_aPal">a) abbbb</string>
+    <string name="answer_bPal">b) abcba</string>
+    <string name="answer_cPal">c) cbacba</string>
+    <string name="answer_dPal">d) bacacb</string>
+    <string name="question_LS3">Consider the language S*, where S = {aa, b}. How many words does this language have of length 6?</string>
+    <string name="answer_aLS3">a) 8</string>
+    <string name="answer_bLS3">b) 6</string>
+    <string name="answer_cLS3">c) 13</string>
+    <string name="answer_dLS3">d) 11</string>
+    <string name="question_LS4">Let S = {a, bb, abaab},T = {b, bab, abab}. Which of the following is an element of ST*?</string>
+    <string name="answer_aLS4">a) abaababaab</string>
+    <string name="answer_bLS4">b) ababa</string>
+    <string name="answer_cLS4">c) babbaabab</string>
+    <string name="answer_dLS4">d) bbababbab</string>
+    <string name="question_australia">Canberra is the capital of Australia.</string>
+    <string name="question_oceans">The Pacific Ocean is larger than the Atlantic Ocean.</string>
+    <string name="question_mideast">The Suez Canal connects the Red Sea and the Indian Ocean.</string>
+    <string name="question_africa">The source of the Nile River is in Egypt.</string>
+    <string name="question_americas">The Amazon River is the longest river in the Americas.</string>
+    <string name="question_asia"> Lake Baikal is the world\'s oldest and deepest freshwater lake.</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="a_check">a</string>
+    <string name="b_check">b</string>
+    <string name="c_check">c</string>
+    <string name="d_check">d</string>
+    <string name="a_button">a</string>
+    <string name="b_button">b</string>
+    <string name="c_button">c</string>
+    <string name="d_button">d</string>
+    <string name="next_button">Next</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+</resources>
