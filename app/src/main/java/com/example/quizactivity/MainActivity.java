@@ -24,8 +24,14 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox mCCheckBox;
     private CheckBox mDCheckBox;
     private Button mNextButton;
+    //Testing how to change things
+    private Button mCheckAnswerButton;
+    private Button mShowAnswerButton;
     private TextView mQuestionTextView;
     private int mUserPressed;
+    //So now im in checkout as what
+    private Button mrandom;
+
 
     private Answer[] mAnswerBank = new Answer[]{
             new Answer(R.string.answer_alanguageS1, R.string.answer_blanguageS1, R.string.answer_clanguageS1, R.string.answer_dlanguageS1),
