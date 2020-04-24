@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private CheckBox mCCheckBox;
     private CheckBox mDCheckBox;
     private Button mrandom2;
+    //make changes
     private Button mNextButton;
     //Testing how to change things
     private Button mCheckAnswerButton;
